@@ -35,7 +35,7 @@ function generateMarkdown(data) {
           ## ${data.tests}
           <hr>
           ## ${data.questions}
-          * GitHub: ${data.git}
+          * GitHub: ${data.github}
           * E-mail: ${data.email}
 `;
 }

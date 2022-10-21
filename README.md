@@ -1,7 +1,7 @@
-# test1
+# README Generator
           
           ## Description 
-          test project
+          test
           
           ## Table of Contents
 
@@ -13,15 +13,17 @@
           * [Questions](#questions)
           
           ## Installation
-          run npm i
+          test
           
           ## Usage
-          fast readme
-
-          undefined
+          test
           
           ## License
-          MIT
+          
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+  https://opensource.org/licenses/MIT 
+    
           
           ## Contributing
           undefined
@@ -31,6 +33,6 @@
           
           ## Questions
           If you have any questions you can find my contact info below.
-          None
           * GitHub: [PeteChicchetti](https://github.com/PeteChicchetti)
           * E-mail: petechicchetti@gmail.com
+        

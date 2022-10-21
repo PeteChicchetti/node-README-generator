@@ -31,6 +31,8 @@ function generateMarkdown(data) {
           
           ## Usage
           ${data.usage}
+
+          
           
           ## License
           ${data.license}
@@ -42,10 +44,11 @@ function generateMarkdown(data) {
           ${data.tests}
           
           ## Questions
+          If you have any questions you can find my contact info below.
           ${data.questions}
-          * GitHub: ${data.github}
+          * GitHub: [${data.github}](https://github.com/${data.github})
           * E-mail: ${data.email}
-`;
+`
 }
 
 module.exports = generateMarkdown;

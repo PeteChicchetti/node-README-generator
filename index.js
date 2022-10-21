@@ -27,12 +27,6 @@ const questions = [
       }, 
       {
         type: 'input',
-        message: 'What is your project title?',
-        name: 'title',
-        validate: (value) => {if(value){return true} else {return 'i need a value to contine'}}
-      },
-      {
-        type: 'input',
         message: 'What is your description?',
         name: 'description',
         validate: (value) => {if(value){return true} else {return 'i need a value to contine'}}

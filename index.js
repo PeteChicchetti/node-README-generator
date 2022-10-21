@@ -9,6 +9,24 @@ const questions = [
 
     inquirer
     .prompt([
+       {
+        type: 'input',
+        message: 'What is your GitHub username?',
+        name: 'github',
+        validate: (value) => {if(value){return true} else {return 'i need a value to contine'}}
+       },  
+       {
+        type: 'input',
+        message: 'What is your email?',
+        name: 'email',
+        validate: (value) => {if(value){return true} else {return 'i need a value to contine'}}
+       }, 
+       {
+        type: 'input',
+        message: 'What is your project title?',
+        name: 'title',
+        validate: (value) => {if(value){return true} else {return 'i need a value to contine'}}
+      }, 
       {
         type: 'input',
         message: 'What is your project title?',
@@ -68,7 +86,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
 
-    fs.writeFile(fileName, data , (err) =>
+    fs.writeFile(`./${fileName.toUpperCase().split(' ').join('')}.md`, data , (err) =>
     err ? console.log(err) : console.log('Success!')
     );
 }

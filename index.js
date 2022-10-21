@@ -61,12 +61,6 @@ const questions = [
         name: 'test',
         validate: (value) => {if(value){return true} else {return 'i need a value to contine'}}
       },
-      {
-        type: 'input',
-        message: 'Additional questions?',
-        name: 'questions',
-        validate: (value) => {if(value){return true} else {return 'i need a value to contine'}}
-      },
 
 ];
 

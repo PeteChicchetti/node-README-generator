@@ -1,7 +1,7 @@
-# dsgs
+# test1
           
           ## Description 
-          dfgsdf
+          test project
           
           ## Table of Contents
 
@@ -13,15 +13,15 @@
           * [Questions](#questions)
           
           ## Installation
-          g
+          run npm i
           
           ## Usage
-          sdfg
+          fast readme
 
-          
+          undefined
           
           ## License
-          fsdg
+          MIT
           
           ## Contributing
           undefined
@@ -31,6 +31,6 @@
           
           ## Questions
           If you have any questions you can find my contact info below.
-          gd
-          * GitHub: [dsg](https://github.com/dsg)
-          * E-mail: fsdgf
+          None
+          * GitHub: [PeteChicchetti](https://github.com/PeteChicchetti)
+          * E-mail: petechicchetti@gmail.com

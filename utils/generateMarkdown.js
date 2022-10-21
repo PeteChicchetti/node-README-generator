@@ -31,11 +31,9 @@ function generateMarkdown(data) {
           
           ## Usage
           ${data.usage}
-
-          ${renderLicenseSection(data.license)}
           
           ## License
-          ${data.license}
+          ${renderLicenseSection(data.license)}
           
           ## Contributing
           ${data.contributing}

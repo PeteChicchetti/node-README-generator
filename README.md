@@ -1,8 +1,8 @@
-# asdg
+# README Generator
           
   ## Description
 
-  fdg
+  This application allows the user to create a README file using node.js
           
   ## Table of Contents
 
@@ -15,11 +15,11 @@
           
   ## Installation
 
-  dag
+  npm i inquirer
           
   ## Usage
 
-  ager
+  This application serves as a fast means to create a README file.
           
   ## License
 
@@ -39,6 +39,6 @@
           
   ## Questions
   If you have any questions you can find my contact info below.
-  * GitHub: [testa](https://github.com/testa)
-  * E-mail: gerghser
+  * GitHub: [PeteChicchetti](https://github.com/PeteChicchetti)
+  * E-mail: petechicchetti@gmail.com
   

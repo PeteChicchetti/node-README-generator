@@ -44,9 +44,13 @@ const questions = [
         validate: (value) => {if(value){return true} else {return 'i need a value to contine'}}
       },
       {
-        type: 'input',
+        type: 'list',
         message: 'What license did you use?',
         name: 'license',
+        choices: ['None', 'Apache License 2.0', 'GNU General Public License v3.0', 'MIT License', 'BSD 2-Clause Simplified License', 
+                    'BSD 3-Clause "New" or "Revised" License', 'Boost Software License 1.0', 'Creative Commons Zero v1.0 Universal', 
+                    'Eclipse Public License 2.0', 'GNU Affero General Public License v3.0', 'GNU General Public License v2.0',
+                    'GNU Lesser General Public License v2.1', 'Mozilla Public License 2.0', 'The Unlicense']
         validate: (value) => {if(value){return true} else {return 'i need a value to contine'}}
       },
       {

@@ -34,7 +34,37 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license.length === 0) {
+    return ''
+  } else if (license == 'Apache License 2.0') {
+    return `https://opensource.org/licenses/Apache-2.0`
+  } else if (license == 'GNU General Public License v3.0') {
+    return `https://www.gnu.org/licenses/gpl-3.0`
+  } else if (license == 'MIT License') {
+    return `https://opensource.org/licenses/MIT`
+  } else if (license == 'BSD 2-Clause Simplified License') {
+    return `https://opensource.org/licenses/BSD-2-Clause`
+  } else if (license == 'BSD 3-Clause "New" or "Revised" License') {
+    return `https://opensource.org/licenses/BSD-3-Clause`
+  } else if (license == 'Boost Software License 1.0') {
+    return `https://www.boost.org/LICENSE_1_0.txt`
+  } else if (license == 'Creative Commons Zero v1.0 Universal') {
+    return `http://creativecommons.org/publicdomain/zero/1.0/`
+  } else if (license == 'Eclipse Public License 2.0') {
+    return `https://opensource.org/licenses/EPL-1.0`
+  } else if (license == 'GNU Affero General Public License v3.0') {
+    return `https://www.gnu.org/licenses/agpl-3.0`
+  } else if (license == 'GNU General Public License v2.0') {
+    return `https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html`
+  } else if (license == 'GNU Lesser General Public License v2.1') {
+    return ``
+  } else if (license == 'Mozilla Public License 2.0') {
+    return `https://opensource.org/licenses/MPL-2.0`
+  } else if (license == 'The Unlicense') {
+    return `http://unlicense.org/`
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string

@@ -55,8 +55,8 @@ const questions = [
       },
       {
         type: 'input',
-        message: 'Who are the contributors?',
-        name: 'contributers',
+        message: 'What are the contributing guidelines?',
+        name: 'contributions',
         validate: (value) => {if(value){return true} else {return 'i need a value to contine'}}
       },
       {

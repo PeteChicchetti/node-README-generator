@@ -1,25 +1,25 @@
-# README Generator
+# Professional README Generator
           
   ## Description
 
-  This application allows the user to create a README file using node.js
+  This application is using Node.js to create professional README files
           
   ## Table of Contents
 
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
-  * [Contributions](#contributions)
+  * [Contributers](#contributers)
   * [Tests](#tests)
   * [Questions](#questions)
           
   ## Installation
 
-  npm i inquirer
+  npm i 
           
   ## Usage
 
-  This application serves as a fast means to create a README file.
+  This app serves to quickly create a well made readme in little time
           
   ## License
 

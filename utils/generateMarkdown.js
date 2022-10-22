@@ -109,13 +109,13 @@ function generateMarkdown(data) {
 
   ${renderLicenseSection(data.license)}
           
-  ## Contributing
+  ## Contributers
 
-  ${data.contributing}
+  ${data.contributers}
           
   ## Tests
 
-  ${data.tests}
+  ${data.test}
           
   ## Questions
   If you have any questions you can find my contact info below.
